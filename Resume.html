@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Resume</title>
+    <style>
+        /* Basic Reset & Body Styling */
+        body {
+            font-family: 'Arial', sans-serif; /* You can change this to a font you prefer */
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9; /* Light grey background */
+            color: #333; /* Dark grey text */
+        }
+
+        /* Container for the resume content */
+        .container {
+            width: 90%;
+            max-width: 1000px; /* Limits width on larger screens */
+            margin: 30px auto; /* Centers the container with space top/bottom */
+            background: #ffffff; /* White background for the resume itself */
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+        }
+
+             /* Container for the resume content */
+        .container2 {
+            width: 90%;
+            max-width: 1000px; /* Limits width on larger screens */
+            margin: auto; /* Centers the container with space top/bottom */
+            background: #ffffff; /* White background for the resume itself */
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+        }
+
+        /* Header Section: Name and Contact Info */
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #007bff; /* Blue accent line */
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.8em;
+            color: #0056b3; /* Darker blue for name */
+            font-weight: bold;
+        }
+
+        header .contact-info {
+            font-size: 1em;
+            color: #555;
+            margin-top: 10px;
+        }
+
+        header .contact-info a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        header .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+
+        /* General Section Styling */
+        .section {
+            margin-bottom: 25px;
+        }
+
+        .section h2 {
+            font-size: 1.6em;
+            color: #0056b3; /* Darker blue for section titles */
+            border-bottom: 1px solid #eee;
+            padding-bottom: 8px;
+            margin-bottom: 15px;
+        }
+
+        /* Experience and Education Item Styling */
+        .job, .education-item {
+            margin-bottom: 20px;
+        }
+
+        .job h3, .education-item h3 {
+            margin: 0 0 5px 0;
+            font-size: 1.2em;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .job .company, .education-item .institution {
+            font-size: 1.1em;
+            font-weight: bold;
+            color: #444;
+            margin-bottom: 3px;
+        }
+        
+        .job .date, .education-item .date {
+            font-size: 0.9em;
+            font-style: italic;
+            color: #777;
+            margin-bottom: 8px;
+        }
+
+        .job ul, .education-item ul {
+            list-style-type: disc; /* Or 'circle', 'square' */
+            margin-left: 20px;
+            padding-left: 0;
+        }
+
+        .job ul li, .education-item ul li {
+            margin-bottom: 5px;
+        }
+
+        /* Skills Section Styling */
+        .skills ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .skills ul li {
+            display: inline-block; /* Skills appear side-by-side */
+            background: #007bff; /* Blue background for skill tags */
+            color: #fff;
+            padding: 6px 12px;
+            margin-right: 8px;
+            margin-bottom: 8px;
+            border-radius: 4px; /* Rounded corners for tags */
+            font-size: 0.95em;
+        }
+
+        /* Footer (Optional) */
+        footer {
+            text-align: center;
+            margin-top: 30px;
+            padding-top: 15px;
+            border-top: 1px solid #eee;
+            font-size: 0.9em;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Maxime Joseph</h1>
+            <div class="contact-info">
+                108 Hemlock St, Timmins, ON | (705) 288-4634 | <a href="mailto:youremail@example.com">maxime.joseph@hotmail.ca</a><br>
+                <a href="https://www.linkedin.com/in/yourprofile" target="_blank">www.linkedin.com/in/maxime-joseph-8a8bb8164</a> | 
+                <a href="https://github.com/yourusername" target="_blank">https://github.com/maxime-joseph</a>
+            </div>
+        </header>
+
+        <div class="section summary">
+            <h2>Objective</h2>
+            <p>
+                To secure a challenging project management role within the electrical engineering field, driven by a strong ambition for continuous learning and a commitment to achieving comprehensive mastery of site-wide electrical and technological systems.
+            </p>
+        </div>
+
+        <div class="section experience">
+            <h2>Professional Experience</h2>
+            <div class="job">
+                <div class="company">Agnico Eagle Detour Lake Mine</div>
+                <h3>Senior Process Control Specialist</h3>
+                <div class="date">October 2021 - Present</div>
+                <ul>
+                    <li>Sitewide automation support. Process optimization and troubleshooting mostly via automation and trend analysis. Optimization and upgrades (Quantum to M580) of the automation systems. Electrical and instrumentation engineering drawings updating and creation. Technical support for instrumentation technicians and electricians. </li>
+                    <li>Introduced multi constraint PID loop control and successfully optimized production.</li>
+                    <li>Managed Schneider Quantum/M580 PLC migrations.</li>
+                    <li>Developed in-house expert system. (Advanced process control)</li>
+                    <li>Implemented motor thermal capacity constraint control to replace power or current driven constraints.</li>
+                    <li>Created a function to track multiple objects on a conveyor based on an event trigger and speed feedback.</li>
+                </ul>
+            </div>
+            <div class="job">
+                <div class="company">Process Plant Electrician (309A)</div>
+                <div class="date">Oct 2019 - 2021</div>
+                <ul>
+                    <li>Maintenance and troubleshooting of all electrical power distribution, controls and protective equipment on site.  Assisting and relieving instrumentation technicians when required and assisting process control specialists when required.</li>
+                </ul>
+                <div class="company">MTSA (Marcos Technical Services & Automation)</div>
+                <h3>Electrician Apprentice</h3>
+                <div class="date">May 2017 - 2018</div>
+                <ul>
+                    <li>Sawmill and Planer process optimization. Engineering drawings creation. Installing new equipment and coordinating installations without interfering with established processes while remaining as cost effective as possible. Equipment installations included new PLC cabinets, VFD’s, Soft Start’s, limit switches, level sensing devices, proximity switches, motor starters and operator consoles including the programming of such devices.</li>
+                </ul>
+                <div class="company">Imerys Talc Canada Inc, Penhorwood Mine</div>
+                <h3>Electrician Apprentice, Flotation Plant Operator, purchasing and work order processing.</h3>
+                <div class="date">June 2011 - 2017</div>
+                <ul>
+                    <li>Relieved operations department as a class 2 operator. Worked with certified electrician and millwrights to learn the trades as much as possible. Assisted maintenance superintendent with office duties such as a purchase orders, work order entries and job planning.</li>
+                </ul>
+            </div>  
+        </div>
+
+        <div class="section education">
+            <h2>Certificates and Training</h2>
+            <div class="education-item">
+                <div class="institution">Rockwell Automation</div>
+                <div class="date">2016-2017</div>
+                <ul>
+                    <li>Rockwell Automation training completion of level 1 programmer (CCP 146), level 2 programmer (CCP 151) and maintenance and troubleshooting (CCP 299). Certificates attained are for the practical knowledge of ladder logic functions and troubleshooting tools with Rockwell programming software (RSLogix) - 2016 & 2017</li>
+                </ul>
+            </div>
+        </div>
+            <div class="education-item">     
+                <div class="institution">309A Red Seal Electrician</div>
+                <div class="date">2019 - Present</div>
+                </ul>
+            </div>
+            <div class="education-item">     
+                <div class="institution">Schneider ControlExpert</div>
+                <div class="date">2019 - 2022</div>
+                </ul>
+                    <li>level 1, level 2 and advanced programming</li>
+            </div>
+            <div class="education-item">     
+                <div class="institution">Aveva Plant SCADA 2023</div>
+                <div class="date">2019</div>
+                </ul>
+                    <li>Program fundamentals and Cicode development</li>
+            </div>     
+            <div class="education-item">     
+                <div class="institution">ABB ACS6000</div>
+                <div class="date">2019</div>
+                </ul>
+                    <li>Replace and maintain IGCT and recitifier units. Learn and interpret european style electrical schematics.</li>
+            </div>      
+        <div class="section skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HMI design</li>
+                <li>Function Block</li>
+                <li>Structured Text</li>
+                <li>SFC</li>
+                <li>Ladder logic</li>
+                <Li>Network Configuration</Li>
+                <li>Data analysis</li>
+                <li>Process optimization</li>
+                <li>Electronic overload configuration</li>
+                <li>ACS800/880 configuration</li>
+                <li>Engineering and design of electrical controls schematics</li>
+                <li>Various instruments configuration and maintenance</li>
+                <li> AutoCAD</li>
+                <li>Python</li>
+                <li>Project Management</li>
+                <li>Microsoft Office Suite</li>
+                <li>Bilingual (English/French)</li>
+            </ul>
+        <div class="section experience">
+            <h2>References</h2>
+            <div class="job">
+                <div class="company">Frederic Chouinard</div>
+                <h3>Interfor - Automation Specialist</h3>
+                <li>(705)650-3387</li>
+                <li>fredbengus@gmail.com</li>             
+        <footer>
+            <p>&copy; 2025 Maxime Joseph</p>
+        </footer>
+
+    </div>
+</body>
+</html>
